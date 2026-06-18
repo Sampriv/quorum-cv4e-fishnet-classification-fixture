@@ -1,0 +1,33 @@
+{
+  "id": "bm_0d2e5be8a8e9a3c6",
+  "title": "CV4E FishNet Classification Fixture",
+  "description": "Computer Vision for Ecology FishNet starter with a deterministic public-style fixture. Maximize classification accuracy.",
+  "objective": "max",
+  "runnerKind": "repo-command",
+  "upstream": {
+    "url": "https://eval.ai/web/challenges/challenge-page/2292/overview",
+    "ref": "eccv-2024-cv4e-fishnet"
+  },
+  "editablePaths": [
+    "predict.py",
+    "fixtures"
+  ],
+  "setupCommand": [
+    "bash",
+    "-lc",
+    "python3 --version"
+  ],
+  "benchmarkCommand": [
+    "bash",
+    "-lc",
+    "python3 benchmark.py"
+  ],
+  "scorePath": "score.json",
+  "scoreSchema": {
+    "score": "accuracy",
+    "accuracy": "number in [0,1]",
+    "valid": "boolean"
+  },
+  "submit": "/api/benchmarks/bm_0d2e5be8a8e9a3c6/commit",
+  "apiUrl": "https://quorum-fail-k91q6wslu-samprivs-projects.vercel.app"
+}
