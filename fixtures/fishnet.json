@@ -1,0 +1,42 @@
+{
+  "labels": [
+    {
+      "id": "reef-001",
+      "species": "grouper"
+    },
+    {
+      "id": "reef-002",
+      "species": "snapper"
+    },
+    {
+      "id": "reef-003",
+      "species": "wrasse"
+    },
+    {
+      "id": "reef-004",
+      "species": "snapper"
+    },
+    {
+      "id": "reef-005",
+      "species": "grouper"
+    },
+    {
+      "id": "reef-006",
+      "species": "parrotfish"
+    },
+    {
+      "id": "reef-007",
+      "species": "wrasse"
+    },
+    {
+      "id": "reef-008",
+      "species": "parrotfish"
+    }
+  ],
+  "classes": [
+    "grouper",
+    "snapper",
+    "wrasse",
+    "parrotfish"
+  ]
+}
